@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="midterm_questions">
+        <item>1. Who was the most well known pupil of Socrates?</item>
+        <item>2. What was Socrates\' famous method during his philosophizing?</item>
+        <item>3. Who is the father of western philosophy?</item>
+        <item>4. Which are correct parts of the definition of philosophy?</item>
+    </string-array>
+
+    <string-array name="midterm_answersText">
+        <item>The study of virtue,The study of knowledge,The study of cities,The study of existence</item>
+
+        <item>Xeno,Aristotle,Socrates,Plato</item>
+
+    </string-array>
+
+    <string-array name="midterm_answers">
+        <item>Plato</item>
+        <item>question and answer</item>
+        <item>2</item>
+        <item>true,true,false,true</item>
+    </string-array>
+</resources>

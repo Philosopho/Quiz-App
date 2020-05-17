@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <include
+                layout="@layout/textview_question"
+                android:id="@+id/tv_question_1"
+                />
+
+            <include
+                layout="@layout/type_in_answer"
+                android:id="@+id/et_fill_in_answer_question_4"
+                />
+
+            <include
+                layout="@layout/textview_question"
+                android:id="@+id/tv_question_2"
+                />
+
+            <include
+                layout="@layout/type_in_answer"
+                android:id="@+id/et_fill_in_answer_question_two"
+                />
+
+            <include
+                layout="@layout/textview_question"
+                android:id="@+id/tv_question_3"
+                />
+
+            <RadioGroup
+                android:id="@+id/rg_multiple_choice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+                <include
+                    layout="@layout/radio_button_answer"
+                    android:id="@+id/radio_answer_1"
+                    />
+
+                <include
+                    layout="@layout/radio_button_answer"
+                    android:id="@+id/radio_answer_2"
+                    />
+
+                <include
+                    layout="@layout/radio_button_answer"
+                    android:id="@+id/radio_answer_3"
+                    />
+
+                <include
+                    layout="@layout/radio_button_answer"
+                    android:id="@+id/radio_answer_4"
+                    />
+            </RadioGroup>
+            <include
+                layout="@layout/textview_question"
+                android:id="@+id/tv_question_4"
+                />
+            <include
+                layout="@layout/checkbox_answer"
+                android:id="@+id/cb_answer_A"
+                />
+
+            <include
+                layout="@layout/checkbox_answer"
+                android:id="@+id/cb_answer_B"
+                />
+
+            <include
+                layout="@layout/checkbox_answer"
+                android:id="@+id/cb_answer_C"
+                />
+
+            <include
+                layout="@layout/checkbox_answer"
+                android:id="@+id/cb_answer_D"
+                />
+            <Button
+                android:id="@+id/submit_test"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:layout_gravity="center"
+                android:text="@string/submit_quiz"
+                />
+        </LinearLayout>
+    </ScrollView>
+</layout>
